@@ -25,5 +25,6 @@ int main(){
     system("\\masm32\\bin\\ml /c  /coff  /Cp salida.asm");
     system("\\masm32\\bin\\link /SUBSYSTEM:CONSOLE /LIBPATH:.\\lib salida");
     system("salida");
+    //Prueba de GIT
     return 0;
 }
